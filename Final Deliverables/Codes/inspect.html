@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <!-- https://cdnjs.com/libraries/twitter-bootstrap/5.0.0-beta1 -->
+    <link
+      rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/css/bootstrap.min.css"/>
+
+      <link rel="stylesheet" href="./style/inspect.css">
+
+      <link rel="icon" href="./images/aqu.png">
+
+    <!-- Icons: https://getbootstrap.com/docs/5.0/extend/icons/ -->
+    <!-- https://cdnjs.com/libraries/font-awesome -->
+    <link
+      rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+
+    <title>Index</title>
+  </head>
+  <body>
+
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <div class="container-fluid">
+         <a class="navbar-brand" href="#">
+         <img src="./images/aqu.png" width="50" height="50" class="d-inline-block align-top" alt="">
+         AQUAMETRICS
+         </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a id="ins" class="nav-link active" href="inspect.html">Inspect</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+
+
+      <div class="container"><br><br>
+        <h1 id="hed">Water Quality Prediction</h1><br>
+        <p id="des"><b id="st">* </b> Enter the details Required below <b id="st"> *</b></p>
+        <br>
+        <form>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="form-group">
+                  <label id="lbl" for="ph">pH value:</label>
+                  <input type="text" class="form-control" id="ph" name="ph">
+                </div>
+                <div class="form-group">
+                  <label id="lbl" for="hardness">Hardness:</label>
+                  <input type="text" class="form-control" id="hardness" name="hardness">
+                </div>
+                <div class="form-group">
+                  <label id="lbl" for="solids">Solids:</label>
+                  <input type="text" class="form-control" id="solids" name="solids">
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="form-group">
+                    <label id="lbl" for="sulfate">Sulfate:</label>
+                    <input type="text" class="form-control" id="sulfate" name="sulfate">
+                  </div>
+                  <div class="form-group">
+                    <label id="lbl" for="conductivity">Conductivity:</label>
+                    <input type="text" class="form-control" id="conductivity" name="conductivity">
+                  </div>
+                  <div class="form-group">
+                    <label id="lbl" for="chloramines">Chloramines:</label>
+                    <input type="text" class="form-control" id="chloramines" name="chloramines">
+                  </div>
+              </div>
+              <div class="col-md-4">
+                
+                <div class="form-group">
+                  <label id="lbl" for="turbidity">Turbidity:</label>
+                  <input type="text" class="form-control" id="turbidity" name="turbidity">
+                </div>
+                <div class="form-group">
+                  <label id="lbl" for="trihalomethanes">Trihalomethanes:</label>
+                  <input type="text" class="form-control" id="trihalomethanes" name="trihalomethanes">
+                </div>
+                <div class="form-group">
+                  <label id="lbl" for="organicCarbon">Organic Carbon:</label>
+                  <input type="text" class="form-control" id="organicCarbon" name="organicCarbon">
+                </div>
+              </div>
+            </div><br><br>
+            <h4>
+                <a id="btn" class="btn btn-primary" href="result.html">Submit</a>   
+            </h4>
+            
+          </form>
+
+
+        <br><br>
+      </div>
+
+
+
+      <br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+      <footer class="footer bg-light">
+        
+        <!-- Copyright -->
+<br> 
+        
+        <div id="footer">
+          © 2023 Copyright Aquametrics 
+          <br>  <br>
+        </div> 
+        <!-- Copyright -->
+      </footer>
+    
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+
+    <!-- https://cdnjs.com/libraries/popper.js/2.5.4 -->
+    <!-- <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.5.4/umd/popper.min.js"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/js/bootstrap.min.js"
+    ></script> -->
+
+    <!-- More: https://getbootstrap.com/docs/5.0/getting-started/introduction/ -->
+  </body>
+</html>
